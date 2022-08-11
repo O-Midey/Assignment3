@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+
+div.hero {
+  background-color: rgb(75, 75, 75);
+  background-image: url(bg1.jpg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 100px;
+  text-align: center;
+  color: white;
+}
+
+div.imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.imgs img {
+  width: 25%;
+}
+
+.flex {
+  display: flex;
+}
+
+.two-column {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.two-column img {
+  max-width: 100%;
+}
+
+.col-content {
+  width: 30%;
+}
+
+.bluediv {
+  background-color: aqua;
+  padding: 15px 30px 0 15px;
+}
+
+.browndiv {
+  background-color: rgb(197, 60, 6);
+  padding: 15px 30px 0 15px;
+}
+
+.about-us-container {
+  margin-top: 50px;
+  padding: 20px;
+  width: 80%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  align-items: center;
+}
+
+.about-us-content {
+  width: 20%;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #dedede;
+}
